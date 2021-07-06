@@ -4,14 +4,35 @@
     margin: 0;
 }
 
+.start {
+    background-image: url(images/frame.jpg);
+    background-repeat: no-repeat;
+}
+
 .introduction {
     display: flex;
     padding-top: 150px;
     padding-left: 80px;
     width: 100%;
     height: 850px;
-    background-color: ghostwhite;
-    background-image: url(images/frame.jpg);
+}
+
+.navigation-bar {
+    font-weight: bold;
+    font-size: 30px;
+    margin-right: 150px;
+    padding-top: 50px;
+}
+
+.navigation-bar a {
+    text-decoration: none;
+    padding-left: 30px;
+    color: brown;
+}
+
+.navigation-bar a:hover {
+    text-decoration: underline;
+    color: OrangeRed;
 }
 
 #welcome {
@@ -58,7 +79,7 @@
     font-size: 60px;
     margin-left: 200px;
     padding: 3%;
-    background-image: linear-gradient(to right, DimGray, Black);
+    background-image: linear-gradient(to right, DimGray, Sienna);
 }
 
 .about {
@@ -159,10 +180,10 @@
     width: 25%;
     border-radius: 50px;
     box-shadow: 15px 15px 15px 15px #888888;
-    margin-left: 70px;
-    height: 575px;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin-right: 150px;
+    height: 605px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .box h2 {
@@ -175,6 +196,7 @@
     font-size: 22px;
     text-align: justify;
     color: slategray;
+    line-height: 35px;
 }
 
 .daily {
